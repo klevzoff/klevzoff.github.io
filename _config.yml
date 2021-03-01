@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -98,14 +98,17 @@ author:
   avatar           : "/assets/images/photo.jpg"
   bio              : "PhD Candidate. Computational physics & software engineering & HPC"
   location         : "Stanford, CA"
-  email            :
+  email            : "s.klevzoff@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:s.klevzoff@gmail.com"
+    - label: "Personal Website"
       icon: "fas fa-fw fa-link"
       url: "https://klevzoff.github.io"
+    - label: "Stanford Website"
+      icon: "fas fa-fw fa-external-link-alt"
+      url: "https://stanford.edu/~klevtsov/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Klevzoff"
@@ -115,9 +118,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/klevzoff"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -275,9 +275,9 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: # true
       read_time: true
       comments: # true
-      share: true
+      share: # true
       related: true
 
